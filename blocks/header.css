@@ -1,0 +1,27 @@
+.header {
+max-width: 880px;
+margin: auto;
+}
+.logo {
+margin-top: 45px;
+    width: 173px;
+    height: 33px;
+    padding-bottom: 41px;
+}
+.linea {
+    padding-bottom: 40px;
+}
+@media screen and (max-width: 320px) {
+    .logo {
+        margin-top: 28px;
+width: 126px;
+height: 24px;
+padding-left: 27px;
+padding-bottom: 32px;
+    }
+    .linea {
+        padding-bottom: 42px;
+width: 300px;
+
+    }
+}
