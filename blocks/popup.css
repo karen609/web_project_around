@@ -1,0 +1,71 @@
+.popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    }
+
+    .popup_opened {
+    visibility: inherit;
+     }
+  
+    .popup__container {
+    position: fixed;  
+    width: 430px;
+    height: 330px;
+    border-radius: 10px;
+    background-color: #fff;
+    }
+
+    .popup__close-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    rotate: 45°;
+    margin-left: 430px;
+    margin-top: -40px;
+    }
+   
+    .popup__title {
+    margin-left: 36px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29.05px;
+    text-align: left;
+    }
+    .popup__input {
+    width: 358px;
+    height: 27.26px;
+    border: none;
+    margin-left: 35px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    color: #C4C4C4;
+    }
+
+    .popup__line {
+    width: 358px;
+    color: #C4C4C4;
+    margin-left: 35px;
+    margin-bottom: 29.74px;
+    }
+
+    .popup__submit-button {
+    margin-left: 36px;
+    width: 358px;
+    height: 50.15px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    color: #C4C4C4;
+    background-color: transparent;
+    border-color: #C4C4C4;
+    border-style: solid;
+    border-width: 1px;
+    }
