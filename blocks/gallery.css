@@ -33,14 +33,14 @@ line-height: 29.05px;
 text-align: left;
 
 }
-.button__like {
+.gallery__button-like {
 width: 21px;
 height: 19px;
 align-items: end;
 border: none;
 background-color: transparent;
 }
-.button__like-active {
+.gallery__button-like_active {
 
 }
 .block {

@@ -4,11 +4,11 @@ const closed = document.querySelector(".popup__close-button");
 
 
 
-function toggle_opened () {
+function toggleOpened () {
   popup.classList.toggle("popup_opened")
 }
-button.addEventListener("click",()=>toggle_opened());
-closed.addEventListener("click",()=>toggle_opened());
+button.addEventListener("click",()=>toggleOpened());
+closed.addEventListener("click",()=>toggleOpened());
 
 function handleProfileFormSubmit(evt) {
   evt.preventDefault();
