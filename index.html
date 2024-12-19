@@ -20,11 +20,11 @@
                 <img class="profile__avatar-photo" src="./images/avatar.jpg" alt="avatar">     
         </div>
             <div class="profile__info">
-                <p class="profile__name">Jacques Cousteau</p>
+                <p id="profilename" class="profile__name">Jacques Cousteau</p>
                 <button class="profile__edit-button" type="button">
                     <img src="./images/Edit Button.png" alt="boton editar">
                 </button>
-                <p class="profile__occupation">Explorador</p>
+                <p id="profilejob" class="profile__job">Explorador</p>
             </div>
             <button class="profile__add-button" type="button">
                 <img src="./images/Add Button.png" alt="boton agregar">
@@ -38,7 +38,7 @@
                 <h2 class="popup__title">Editar perfil</h2>
                 <input
               type="text"
-              id="name"
+              id="formname"
               placeholder="Jacques Cousteau"
               required
               class="popup__input"
@@ -46,13 +46,13 @@
             <hr class="popup__line">
             <input
           type="text"
-          id="Acerca-de-mi"
+          id="formjob"
           placeholder="Explorador"
           required
           class="popup__input"
         />
         <hr class="popup__line">
-        <button class="popup__submit-button">Guardar</button>
+        <button type="submit" id="buttonsubmit" class="popup__submit-button">Guardar</button>
             </form>
     </div>
         <section class="gallery">
@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="gallery__card">
-                <img src="./images/Lago Louise.jpg" alt="Lago Louise">
+                <img class="gallery__image"src="./images/Lago Louise.jpg" alt="Lago Louise">
                 <div class="gallery__info">
                     <p class="gallery__name">Lago Louise</p>
                     <button class="gallery__button-like" type="button">
@@ -75,7 +75,7 @@
                 </div>
             </div>
             <div class="gallery__card">
-                <img src="./images/Montañas Calvas.jpg" alt="Montañas Calvas">
+                <img class="gallery__image" src="./images/Montañas Calvas.jpg" alt="Montañas Calvas">
                 <div class="gallery__info">
                     <p class="gallery__name">Montañas Calvas</p>
                     <button class="gallery__button-like" type="button">
@@ -84,7 +84,7 @@
                 </div>
             </div>
             <div class="gallery__card">
-                <img src="./images/Latemar.jpg" alt="Latemar">
+                <img class="gallery__image" src="./images/Latemar.jpg" alt="Latemar">
                 <div class="gallery__info">
                     <p class="gallery__name">Latemar</p>
                     <button class="gallery__button-like" type="button">
@@ -93,7 +93,7 @@
                 </div>
             </div>
             <div class="gallery__card">
-                <img src="./images/Vanois National.jpg" alt="Vanois National">
+                <img class="gallery__image" src="./images/Vanois National.jpg" alt="Vanois National">
                 <div class="gallery__info">
                     <p class="gallery__name">Vanois National</p>
                     <button class="gallery__button-like" type="button">
@@ -102,7 +102,7 @@
                 </div>
             </div>
             <div class="gallery__card">
-                <img src="./images/Lago di Braies.jpg" alt="Lago di Braies">
+                <img class="gallery__image" src="./images/Lago di Braies.jpg" alt="Lago di Braies">
                 <div class="gallery__info">
                     <p class="gallery__name">Lago di Braies</p>
                     <button class="gallery__button-like" type="button">
