@@ -1,25 +1,19 @@
 .profile {
-display: flex;
+display: grid;
+grid-template-columns: 120px 373px 24px 150px;
 max-width: 880px;
-padding-bottom: 71px;
+padding-top: 40px;
+padding-bottom: 50px;
 margin: auto;
 }
 .profile__avatar {
-position: relative;
-}
-.profile__avatar-photo {
 width: 120px;
 height: 120px;
 border-radius: 50%;
 }
-
 .profile__info {
-    display: flex;
     padding-left: 30px;
-    max-width: 400px;
-    flex-wrap: wrap;
- }
-
+}
 .profile__name {
 font-family: Inter;
 font-size: 42px;
@@ -36,12 +30,16 @@ color: #fff;
 line-height: 0px;
 }
 .profile__edit-button {
+    padding-top: 15px;
+    padding-left: 30px;
     width: 24px;
     height: 24px;
     border: none;
     background-color: transparent;
 }
 .profile__add-button {
+    padding-top: 13px;
+    padding-left: 165px;
     width: 150px;
     height: 50px;
     border: none;
@@ -50,34 +48,46 @@ line-height: 0px;
 
 @media screen and (max-width: 320px) {
     .profile  {
-        flex-direction: column;
-        margin: auto;
-  
-    }
-    .profile__avatar {
-        margin: auto;
-    }
-    .profile__info {
-        width: 200px;
-   margin: auto;
-    }
-    .profile__name {
-        font-size: 22px;
-        font-weight: 500px;
+       justify-content: center;
+    grid-template-rows: 120px 50px 50px;
+    row-gap: 30px;
+    grid-template-columns: 196px 18px;
+    column-gap: 10px;
+    
+
 
     }
-    .profile__ocupation {
+    .profile__avatar {
+grid-column-start: 1;
+grid-column-end: 3;
+margin: auto;
+    }
+    .profile__info {
+        padding-left: 0;
+    }
+    .profile__name {
+        font-size: 22px; 
+        padding-left: 0;
+
+    }
+    .profile__job {
         font-size: 14px;
-   padding-bottom: 36px;
-   justify-content: center;
+        padding-left: 0;
   
     }
-    .profile__editt-button {
+    .profile__edit-button {
         width: 18px;
         height: 18px;
+        margin: 0;
+        padding: 0;
     }
     .profile__add-button {
-        width: 282px;
+        padding-top: 0;
+        padding-left: 0;
+        padding-bottom: 36px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin: auto;
        
     }
 }
