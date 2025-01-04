@@ -1,0 +1,51 @@
+.gallery {
+    display: grid;
+    margin: auto;
+    max-width: 880px;
+    grid-template-columns: repeat(auto-fill, minmax(282px, 1fr));
+    grid-auto-rows: auto;
+    row-gap: 21px;
+    column-gap: 17px;
+}
+.gallery__card {
+    margin: auto;
+    width: 282px;
+    height: 361px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.gallery__image {
+width: 100%;
+height: 282px;
+}
+.gallery__info {
+    width: 246px;
+    display: flex;
+    padding-top: 24px;
+}
+.gallery__name {
+margin: auto;
+font-family: Inter;
+font-size: 24px;
+font-weight: 900;
+line-height: 29.05px;
+text-align: left;
+
+}
+.gallery__button-like {
+width: 21px;
+height: 19px;
+align-items: end;
+border: none;
+background-color: transparent;
+}
+.gallery__button-like_active {
+
+}
+.block {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
