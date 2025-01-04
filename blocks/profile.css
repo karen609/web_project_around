@@ -34,6 +34,13 @@
     border: none;
 background-color: transparent;
 }
+.profile__add-button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    padding-left: 165px;
+}
 
 @media screen and (max-width: 320px) {
     .profile {
@@ -44,7 +51,8 @@ background-color: transparent;
         row-gap: 30px;
     }
     .profile__avatar {
-        justify-content: center;
+      padding-left: 100px;
+      padding-right: 100px;
       grid-column-start: 1;
       grid-column-end: 3;
     }
@@ -60,5 +68,12 @@ background-color: transparent;
     .profile__edit-button {
         width: 18px;
         height: 18px;
+    }
+    .profile__add-button {
+        padding-left: 0;
+        width: 282px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+       
     }
 }
