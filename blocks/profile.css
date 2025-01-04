@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: 120px 373px 24px 150px;
     padding-top: 40px;
+    padding-bottom: 50px;
 }
 .profile__avatar {
     width: 120px;
@@ -36,13 +37,14 @@ background-color: transparent;
 
 @media screen and (max-width: 320px) {
     .profile {
-        margin: auto;
+        justify-content: center;
         display: grid;
         grid-template-columns: 196px 18px;
         grid-template-rows: 120px 50px 50px;
+        row-gap: 30px;
     }
     .profile__avatar {
-      justify-content: center;
+        justify-content: center;
       grid-column-start: 1;
       grid-column-end: 3;
     }
