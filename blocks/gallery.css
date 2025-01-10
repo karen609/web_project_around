@@ -22,23 +22,28 @@ height: 282px;
 }
 .gallery__info {
     width: 246px;
+    height: 23px;
     display: flex;
-    padding-top: 24px;
+    margin:25px 15px 31px 21px;
+    justify-content: space-around;
 }
 .gallery__name {
-margin: auto;
-font-family: Inter;
+font-family: "inter-black";
+width: 225px;
 font-size: 24px;
 font-weight: 900;
 line-height: 29.05px;
 text-align: left;
-overflow:hidden;
+align-self: center;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
 
 }
 .gallery__button-like {
+align-self: center;
 width: 21px;
 height: 19px;
-align-items: end;
 border: none;
 background-color: transparent;
 }
