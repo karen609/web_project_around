@@ -12,4 +12,4 @@ Tabla de contenido:
 Plan para mejorar: 
 Botón de "like" en funcionamiento.
 
-gh repo clone karen609/web_project_around
+ https://karen609.github.io/web_project_around/
